@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+cd /app || exit
+
+exec /bin/ash /app/bin/hubot -a slack
